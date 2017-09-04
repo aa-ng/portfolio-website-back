@@ -4,7 +4,9 @@
   "author": "aa-ng <alex.ng.personal@gmail.com>",
   "private": true,
   "scripts": {
-    "start": "./node_modules/nodemon/bin/nodemon.js ./bin/www --exec 'npm run lint && node'",
+    "start": "node ./bin/www",
+    "dev": "./node_modules/nodemon/bin/nodemon.js ./bin/www --exec 'npm run lint && node'",
+    "deploy": "git push heroku master",
     "lint": "./node_modules/.bin/eslint **/*.js"
   },
   "dependencies": {
