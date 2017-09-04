@@ -6,7 +6,7 @@
 ## Installation
 
 ``` bash
-git clone https://github.com/CynicalBird/portfolio-website.git
+git clone https://github.com/aa-ng/portfolio-website-back.git
 ```
 
 ## Build Setup
@@ -15,16 +15,10 @@ git clone https://github.com/CynicalBird/portfolio-website.git
 # install dependencies
 npm install
 
+# serve production
+npm start
+
 # serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run production 
-cd dist
-npm start
 ```
